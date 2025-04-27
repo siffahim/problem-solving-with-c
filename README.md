@@ -1,1 +1,1 @@
-# problem-solving-with-c
+# Those are problems taken from Codeforces and HackerRank.
