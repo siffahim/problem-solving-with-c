@@ -29,7 +29,7 @@ int main(){
     printf("%d %d\n", len_a, len_b);
     printf("%s\n", concat);
 
-
+ 
     //swapping
     char temp = a[0];
     a[0] = b[0];
