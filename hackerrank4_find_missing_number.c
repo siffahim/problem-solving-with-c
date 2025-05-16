@@ -1,14 +1,23 @@
 #include <stdio.h>
 
 int main(){
-    int m, a, b, c;
-    scanf("%d %d %d %d", &m, &a, &b, &c);
+    int t;
+    scanf("%d", &t);
+    for (int i = 1; i <= t; i++){
+        long long int m, a, b, c;
+        scanf("%lld %lld %lld %lld", &m, &a, &b, &c);
 
-    int multiplicationsOfThree = a * b * c;
+        long long int multiplicationsOfThree = a * b * c;
 
-    int result = m / multiplicationsOfThree;
-
-    printf("%d", result);
+        if(m%multiplicationsOfThree == 0){
+            long long int result = m / multiplicationsOfThree;
+            printf("%lld", result);
+        }
+        else{
+            printf("-1");
+        }
+        printf("\n");
+    }
 
     return 0;
 }
