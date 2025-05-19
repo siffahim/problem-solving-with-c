@@ -1,2 +1,2 @@
 
-    fgets(s, 201, stdin);
+        return 0;
