@@ -1,1 +1,1 @@
-# Those are problems taken from Codeforces and HackerRank.
+# Those are problems taken from Codeforces, HackerRank, and Codechef.
